@@ -1,0 +1,248 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px; 
+  background-color: black;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #d9d9d9;
+  color: #555;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #d9d9d9;
+  color: #555;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  /* Full height */
+  max-height: auto; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size:10vw;
+}
+
+datefont {
+  font-size:2vw;
+  position: absolute;
+  top: 75%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bg {
+  /* The image used */
+  /*background-image: url("villa.png");*/
+
+  /* Full height */
+  max-height: auto; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* for the maps */
+ul#continents {
+  list-style: none;
+  position: relative;
+  width: 580px;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+ }
+  
+ ul#continents li {
+  position: absolute;
+ }
+  
+ ul#continents li a{
+  display: block;
+  height: 100%;
+ }
+  
+ ul#continents li a span {
+  display: none;
+ }
+ 
+ ul#continents li a:hover span {
+  display: block;
+  padding: 5px;
+  width: 150px;
+  background: #000;
+  position: relative;
+  top: 50%;
+  font: 12px Arial, Helvetica, sans-serif;
+  opacity: .75;
+  filter:alpha(opacity=75);
+  color: #FFF;
+ }
+ 
+ #yukon {
+  width: 50px;
+  height: 75px;
+  top: 65px;
+  left: 30px;
+ }
+  
+ #nwt {
+  width: 93px;
+  height: 110px;
+  top: 65px;
+  left: 81px;
+ }
+ #nwt2 {
+  width: 53px;
+  height: 30px;
+  top: 34px;
+  left: 129px;
+ }
+  
+ #Nunavut {
+  width: 170px;
+  height: 70px;
+  top: 73px;
+  left: 129px;
+ }
+  
+ #Nunavut2 {
+  width: 70px;
+  height: 184px;
+  top: 1px;
+  left: 178px;
+ }
+  
+ #bc {
+  width: 65px;
+  height: 100px;
+  top: 140px;
+  left: 15px;
+ }
+  
+ #alberta {
+  width: 45px;
+  height: 85px;
+  top: 170px;
+  left: 80px;
+ }
+ #saskatchewan {
+  width: 45px;
+  height: 85px;
+  top: 180px;
+  left: 115px;
+ }
+ #manitoba {
+  width: 40px;
+  height: 85px;
+  top: 185px;
+  left: 160px;
+ }
+ #ontario {
+  width: 75px;
+  height: 75px;
+  top: 210px;
+  left: 200px;
+ }
+ #ontario2 {
+  width: 60px;
+  height: 40px;
+  top: 285px;
+  left: 250px;
+ }
+ #quebec {
+  width: 75px;
+  height: 120px;
+  top: 165px;
+  left: 270px;
+ }
+ #quebec2 {
+  width: 75px;
+  height: 40px;
+  top: 215px;
+  left: 300px;
+ }
+ #nfl {
+  width: 60px;
+  height: 40px;
+  top: 180px;
+  left: 325px;
+ }
+ #nfl2 {
+  width: 45px;
+  height: 37px;
+  top: 210px;
+  left: 385px;
+ }
+ #nb {
+  width: 25px;
+  height: 27px;
+  top: 255px;
+  left: 345px;
+ }
+ #ns {
+  width: 32px;
+  height: 39px;
+  top: 250px;
+  left: 363px;
+ }
+ #pei {
+  width: 13px;
+  height: 9px;
+  top: 258px;
+  left: 366px;
+ }
