@@ -57,8 +57,14 @@ function loopimages(){
     document.body.style.backgroundImage = imagechosen;
     document.getElementById("bgid").innerHTML = innerstuff;
     document.getElementById("todaystask").innerHTML = title[imagenumber];
+
+    document.getElementById("todaystask").onclick = function(){
+window.location.href = link[imagenumber];
+    
+}
     };
 
 document.addEventListener('DOMContentLoaded', function () {
     loopimages();
    });
+
