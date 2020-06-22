@@ -56,7 +56,7 @@ function loopimages(){
     var imagechosen = "url(" + image[imagenumber] + ")";
     document.body.style.backgroundImage = imagechosen;
     document.getElementById("bgid").innerHTML = innerstuff;
-    document.getElementById("todaystask").innerHTML = title[imagenumber];
+    document.getElementById("todaystask").innerHTML = title[imagenumber] + "<br><br> Click Me!";
 
     document.getElementById("todaystask").onclick = function(){
 window.location.href = link[imagenumber];
